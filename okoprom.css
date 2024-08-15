@@ -732,6 +732,8 @@ body
     }
     .product-card__buttons
     {
-        padding: 40.5px 24px 0px 0px;
+        padding: 28.5px 0px 0px 0px;
+        margin: 0px 24px 0px 20px;
     }
+
 }
