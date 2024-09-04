@@ -867,11 +867,12 @@ body
     letter-spacing: 0%;
     text-align: left;
 }
-.product-categories__card-tool
+.card-tool-container
 {
     display: flex;
     gap: 16px;
     padding: 60px 0 0 0;
+    flex-wrap: wrap;
 }
 .card-tool
 {
@@ -881,10 +882,10 @@ body
     background: rgb(244, 245, 248);
     padding: 24px;
 }
-.card-tool-title
+.card-tool__title
 {
     max-width: 341px;
-    height: 84px;
+    height: 56px;
     color: rgb(22, 22, 22);
     font-family: "Golos Text",sans-serif;
     font-size: 24px;
@@ -892,15 +893,18 @@ body
     line-height: 28px;
     letter-spacing: 1%;
     text-align: left;
-    padding: 0 0 12px 0;
+    margin: 0 0 40px 0;
 }
-.card-tool-image
+/* .card-tool__title:nth-child(1)
 {
-    /* width: 341px;
-    height: 240px; */
-}
-.tool-img
+    padding: ;
+} */
+/* .card-tool__title:nth-child(3)
 {
-    width: 341px;
-    height: 240px;
+    height: 56px;
+} */
+.card-tool__img
+{
+    max-width: 100%;
+    max-height: 100%;
 }
