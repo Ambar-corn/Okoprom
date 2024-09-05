@@ -893,7 +893,14 @@ body
     line-height: 28px;
     letter-spacing: 1%;
     text-align: left;
-    margin: 0 0 40px 0;
+    /* margin: 0 0 40px 0; */
+}
+.sbd
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 340px;
 }
 /* .card-tool__title:nth-child(1)
 {
