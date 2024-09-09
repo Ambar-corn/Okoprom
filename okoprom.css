@@ -958,3 +958,16 @@ body
     }  
 
 }
+@media (max-width :1024px)
+{
+    .product-categories__container-limiter
+    {
+        padding: 0 72px;
+    }
+    .card-tool
+    {
+        max-width: 435px;
+        flex: 1 1 48.7%;
+    }
+
+}
