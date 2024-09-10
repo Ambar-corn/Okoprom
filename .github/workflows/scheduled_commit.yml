@@ -21,7 +21,7 @@ jobs:
           git config --global user.name "Ambar-corn"
           
           # Ваши команды для внесения изменений
-          echo "Scheduled change" >> README.md # пример внесения изменений в файл
+          echo "Scheduled change" >> file.txt # пример внесения изменений в файл
           
           git add .
           git commit -m "Scheduled commit via GitHub Actions"
