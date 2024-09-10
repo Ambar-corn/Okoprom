@@ -3,7 +3,7 @@ name: Scheduled Commit
 # Настройка расписания
 on:
   schedule:
-    - cron: '30 17 * * *' # каждый день в 14:00 по UTC
+    - cron: '34 17 * * *' # каждый день в 14:00 по UTC
 
 jobs:
   commit:
