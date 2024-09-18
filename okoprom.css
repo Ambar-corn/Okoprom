@@ -1124,3 +1124,24 @@ body
     letter-spacing: 0%;
     text-align: left;
 }
+@media (max-width:1280px) 
+{
+    .Advantages
+    {
+        padding: 100px 0 0 0;
+    }    
+    .Advantages-cards
+    {
+        padding: 40px 0 0 0;
+        row-gap: 52px;
+    }
+    .Advantages-card
+    {
+        max-width: 592px;
+        flex: 1 1 48.7%;
+    }
+    .Advantages-card__text
+    {
+        max-width: none;
+    }
+}
