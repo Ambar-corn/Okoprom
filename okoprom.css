@@ -1145,3 +1145,75 @@ body
         max-width: none;
     }
 }
+@media (max-width:1024px) 
+{
+    .Advantages__container-limiter
+    {
+        padding: 0 72px;
+    }
+    .Advantages-card
+    {
+        max-width: 432px;
+    }
+    .Advantages__title
+    {
+        height: 144px;
+    }
+}
+@media (max-width:768px) 
+{
+    .Advantages
+    {
+        padding: 60px 0 0 0;
+    }    
+    .Advantages__container-limiter
+    {
+        padding: 0 16px;
+    }
+    .Advantages-cards
+    {
+        padding: 32px 0 0 0;
+        row-gap: 20px;
+    }
+    .Advantages-card
+    {
+        max-width: 736px;
+        gap: 12px;
+        flex: 1 1 100%;
+    }
+    .Advantages-card__img
+    {
+        padding: 11px;
+        max-width: 44px;
+        height: 44px;
+    }
+    .Advantages__title
+    {
+        height: 112px;
+        font-family: "Golos Text",sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .Advantages-card__title
+    {
+        color: rgb(22, 22, 22);
+        font-family: "Golos Text",sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .Advantages-card__subtitle
+    {
+        font-family: "Golos Text",sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
