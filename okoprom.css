@@ -1427,3 +1427,172 @@ body
     }
 
 }
+.Feedback
+{
+    max-width: 100%; 
+    background-color: #ffffff;
+    padding: 120px 0 0 0;
+}
+.Feedback__container-limiter
+{
+    max-width: 1280px;
+    margin: 0px auto;
+    padding: 0 40px;
+}
+.Feedback__background
+{
+    display: flex;
+    max-width:1200px;
+    border-radius: 16px;
+    background: rgb(32, 34, 38);
+    column-gap: 117px;
+    justify-content: space-between;
+}
+.Feedback-text
+{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0 140px 40px;
+}
+.Feedback-text__title
+{
+    max-width: 451px;
+    color: rgb(255, 255, 255);
+    font-family: "Golos Text",sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.Feedback-text__subtitle
+{
+    max-width: 451px;
+    color: rgb(159, 159, 159);
+    font-family: "Golos Text",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.Form
+{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 40px 60px 0;
+    flex-grow: 1;
+    row-gap: 44px;
+}
+.Form__data
+{    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Form__name
+{   
+    max-width: 552px;
+    height: 52px;
+    background: rgb(32, 34, 38);
+    font-family: "Golos Text",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-bottom: 2px solid;
+    border-bottom-color: rgb(255, 255, 255);
+    padding: 16px 0  ;
+}
+.Form__tel
+{
+    max-width: 552px;
+    height: 52px;
+    background: rgb(32, 34, 38);
+    font-family: "Golos Text",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-bottom: 2px solid;
+    border-bottom-color: rgb(255, 255, 255);
+    padding: 16px 0  ;
+}
+.Form__email
+{
+    max-width: 552px;
+    height: 52px;
+    background: rgb(32, 34, 38);
+    font-family: "Golos Text",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-bottom: 2px solid;
+    border-bottom-color: rgb(255, 255, 255);
+    padding: 16px 0  ;
+}
+.Form__button
+{
+    display: flex;
+    max-height: 44px;
+    justify-content: center;
+    align-items: center;
+    max-width: 125px;
+    color: rgb(22, 22, 22);
+    font-family: "Golos Text",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 20px 12px;
+    border-radius: 8px;
+}
+@media (max-width:1280px) 
+{
+    .Feedback
+    {
+        padding: 100px 0 0 0 ;
+    }       
+    .Feedback__background
+    {
+        column-gap: 16px;
+    }
+    .Feedback-text
+    {
+        padding: 60px 0 72px 40px;
+        max-width: 49.15%;
+    }
+    .Feedback-text__title
+    {
+        min-width: 424px;
+    }
+    .Feedback-text__subtitle
+    {
+        min-width: 424px;
+    }
+    .Form
+    {
+        max-width: 49.15%;
+    }
+}
+@media (max-width:1024px)
+{
+    .Feedback__background    
+    {
+        flex-wrap: wrap;
+    }
+    .Feedback-text
+    {
+        max-width: 552px;
+    }    
+    .Form
+    {
+        max-width: 100%
+    }
+}
