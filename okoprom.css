@@ -1583,16 +1583,106 @@ body
 }
 @media (max-width:1024px)
 {
+    .Feedback__container-limiter
+    {
+        padding: 0 72px;
+    }
     .Feedback__background    
     {
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     .Feedback-text
     {
-        max-width: 552px;
+        max-width: 100%;
+        padding: 36px 36px 0 36px;
     }    
+    .Feedback-text__title
+    {
+        max-width: 100%;
+        flex-grow: 1;
+    }
+    .Feedback-text__subtitle
+    {
+        max-width: 100%;
+    }
     .Form
     {
-        max-width: 100%
+        max-width: 100%;
+        padding: 40px 36px 36px 36px;
+    }
+    .Form__data
+    {
+        max-width: 100%;
+    }
+    .Form__name
+    {
+        max-width: 100%;
+    }
+    .Form__tel
+    {
+        max-width: 100%;
+    }
+    .Form__email
+    {
+        max-width: 100%;
+    }
+}
+@media (max-width:768px) 
+{
+    .Feedback__container-limiter
+    {
+        padding: 0 16px;
+    }
+    .Feedback-text
+    {
+        padding: 12px 12px 0 12px;
+    }   
+    .Feedback-text__title
+    {
+        font-size: 24px;
+        margin-bottom: 12px;
+        line-height: 28px;
+        height: 84px;
+        min-width: 264px;
+    }
+    .Feedback-text__subtitle
+    {
+        font-size: 14px;
+        line-height: 16px;
+        height: 48px;
+        min-width: 264px;
+    }
+    .Form
+    {
+        max-width: 100%;
+        padding: 32px 12px 12px 12px;
+        row-gap: 32px;
+    }
+    .Form__data
+    {
+        gap: 8px;
+    }
+    .Form__name
+    {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 18px 0  ;
+    }
+    .Form__tel
+    {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 18px 0  ;
+    }
+    .Form__email
+    {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 18px 0  ;
+    }
+    .Form__button
+    {
+        max-width: 114px;
+        padding: 18px 0  ;
     }
 }
