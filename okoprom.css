@@ -1431,7 +1431,7 @@ body
 {
     max-width: 100%; 
     background-color: #ffffff;
-    padding: 120px 0 0 0;
+    padding: 120px 0 120px 0;
 }
 .Feedback__container-limiter
 {
@@ -1685,4 +1685,209 @@ body
         max-width: 114px;
         padding: 18px 0  ;
     }
+}
+.Footer
+{
+    max-width: 100%;  
+    background-color: #f4f5f8;
+}
+.Footer__container-limiter
+{
+    max-width: 1280px;
+    margin: 0px auto;
+    padding: 0 40px;
+}
+.Footer-top
+{
+    padding: 24px 0 23.5px 0;    
+    border-bottom: 1px solid;
+    border-bottom-color: rgb(233, 233, 233);
+}
+.Footer-main
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 40.5px 0 0 0;
+}
+.Contact-info
+{
+    max-width: 389px;
+}
+.Contact-info__address
+{
+    max-width: 100%; 
+    color: rgb(22, 22, 22);
+    font-family: "Golos Text",sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.Contact-info__tel
+{
+    max-width: 250px;
+    color: rgb(22, 22, 22);
+    font-family: "Golos Text",sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1%;
+    text-align: left;
+    margin-bottom: calc(4*2px);
+}
+.Contact-info__email
+{
+    max-width: 250px;
+    color: rgb(22, 22, 22);
+    font-family: "Golos Text",sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.Contact-info__connection
+{
+    display: flex;
+    max-width: 240px;
+    gap: 9px;
+    margin-bottom: 60px;
+}
+.whatsapp
+{
+    display: flex;
+    border-radius: 8px;
+    background: rgb(32, 34, 38);
+    color: rgb(255, 255, 255);
+    font-family: "Golos Text",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+}
+.Telegram
+{   
+    display: flex;
+    border-radius: 8px;
+    background: rgb(32, 34, 38);
+    padding: 12px 20px 12px 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Golos Text",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.Contact-info__socials
+{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    max-width: 313px;
+    margin-bottom: 39.5px;
+}
+.Contact-info__icons
+{
+    display: flex;
+    align-items: center;
+    max-width: 313px;
+    gap: 8px;
+}
+.Contact-info__inst
+{
+    max-width: 44px;
+    max-height: 44px;
+    padding: 10px;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 8px; 
+}
+.Contact-info__youtube
+{
+    max-width: 44px;
+    max-height: 44px;
+    padding: 10px;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 8px; 
+}
+.Contact-info__subscription
+{
+    max-width: 193px;
+    color: rgb(117, 117, 117);
+    font-family: "Golos Text",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.Footer-info
+{
+    display: flex;
+    column-gap: 16px;
+}
+.Footer-info__text
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    max-width: 288px;
+}
+.Footer-info__title
+{
+    color: rgb(22, 22, 22);
+    font-family: "Golos Text",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -3%;
+    text-align: left;
+    padding: 0 0 20px 0;
+}
+.Footer-info__subtitle
+{
+    color: rgb(22, 22, 22);
+    font-family: "Golos Text",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.Footer-bottom
+{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+    border-top-color: rgb(233, 233, 233);
+    padding-top: 24.5px;
+    padding-bottom: 24px;
+}
+.Footer-bottom__disclaimer
+{
+    color: rgb(117, 117, 117);
+    font-family: "Golos Text",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.Footer-bottom__confidentiality
+{
+
+    color: rgb(117, 117, 117);
+    font-family: "Golos Text",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: right;
 }
