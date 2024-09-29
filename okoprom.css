@@ -1891,3 +1891,41 @@ body
     letter-spacing: 0%;
     text-align: right;
 }
+@media (max-width:1280px) 
+{
+    .Footer-main
+    {
+        column-gap: 16px;
+        margin-bottom: 39.5px;
+    }
+    .Footer-info
+    {
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+    .Contact-info__address
+    {
+        min-width: 464px;
+        margin-bottom: 32px;
+    }
+    .Contact-info__tel
+    {
+        margin-bottom: 12px;
+    }
+    .Contact-info__email
+    {
+        margin-bottom: 32px;
+    }
+    .Contact-info__connection
+    {
+        margin-bottom: 32px;
+    }
+    .Contact-info
+    {
+        min-width: 464px;
+    }
+    .Footer-info__text
+    {
+        min-width: 304px;
+    }
+}
