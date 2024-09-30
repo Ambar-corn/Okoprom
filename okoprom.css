@@ -1557,7 +1557,7 @@ body
 {
     .Feedback
     {
-        padding: 100px 0 0 0 ;
+        padding: 100px 0 100px 0 ;
     }       
     .Feedback__background
     {
@@ -1629,6 +1629,10 @@ body
 }
 @media (max-width:768px) 
 {
+    .Feedback
+    {
+        padding: 60px 0 60px;
+    }
     .Feedback__container-limiter
     {
         padding: 0 16px;
@@ -1927,5 +1931,100 @@ body
     .Footer-info__text
     {
         min-width: 304px;
+    }
+}
+@media (max-width:1024px) 
+{
+    .Footer__container-limiter
+    {
+        padding: 0 72px;
+    }
+    .Footer-main
+    {
+        flex-wrap: wrap;
+        row-gap: 60px;
+    }
+    .Footer-bottom
+    {
+        flex-wrap: wrap;
+        row-gap: 12px;
+    }
+}
+@media (max-width:768px) 
+{
+    .Footer__container-limiter
+    {
+        padding: 0 16px;
+    }
+    .Footer-top 
+    {
+        padding: 16px 0 15.5px 0;
+    }
+    .Footer-top 
+    {
+        padding: 52.5px 0 0 0;
+    }
+    .Contact-info
+    {
+        min-width: 0px;
+    }
+    .Contact-info__address
+    {
+        min-width: 0px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .Contact-info__tel
+    {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .Contact-info__email
+    {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .whatsapp
+    {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+    .Telegram
+    {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+    .Footer-info__title
+    {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .Footer-info__subtitle
+    {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+    .Footer-bottom__disclaimer
+    {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+    .Footer-bottom__confidentiality
+    {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+    .Footer-info__text
+    {
+        min-width: 0px;
     }
 }
