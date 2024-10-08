@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="okoprom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <title>Okoprom</title>
 </head>
 <body>
@@ -125,15 +127,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card">
-                                <img class="img" src="img\4815img_3205-1960-2 1.jpeg" alt="">
+                            <div class="swiper card">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="img/4815img_3205-1960-2 1.jpeg" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/4815img_3205-1960-2 1.jpeg" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/4815img_3205-1960-2 1.jpeg" alt=""></div>
+                                </div>
                             </div>
                         </div>
                         <div class="product-card__buttons">
                             <a href="#" class="product-card__details">Подробнее</a>
                             <div class="product-card__controls">
                                 <div class="product-card__arrow-left">
-                                    <a href="">
                                         <svg width="7.778320" height="12.728516" viewBox="0 0 7.77832 12.7285" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                             <desc>
                                                     Created with Pixso.
@@ -141,10 +146,8 @@
                                             <defs/>
                                             <path id="Vector" d="M2.82 6.36L7.77 11.31L6.36 12.72L0 6.36L6.36 0L7.77 1.41L2.82 6.36Z" fill="#161616" fill-opacity="1.000000" fill-rule="nonzero"/>
                                         </svg>                                        
-                                    </a>
                                 </div>
                                 <div class="product-card__arrow-right">
-                                    <a href="">
                                         <svg width="7.778320" height="12.728516" viewBox="0 0 7.77832 12.7285" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                             <desc>
                                                     Created with Pixso.
@@ -152,7 +155,6 @@
                                             <defs/>
                                             <path id="Vector" d="M4.95 6.36L0 1.41L1.41 0L7.77 6.36L1.41 12.72L0 11.31L4.95 6.36Z" fill="#161616" fill-opacity="1.000000" fill-rule="nonzero"/>
                                         </svg>                                        
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -473,4 +475,5 @@
         </div>
     </div>
 </body>
+<script src="index.js"></script>
 </html>
