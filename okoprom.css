@@ -2028,3 +2028,7 @@ body
         min-width: 0px;
     }
 }
+.swiper 
+{
+    padding: 24px !important;
+}
